@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		826BE4F22E1DE87C00BADF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 826BE4DC2E1DE87B00BADF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 826BE4E32E1DE87B00BADF70;
+			remoteInfo = LearnTimesTables;
+		};
+		826BE4FC2E1DE87C00BADF70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 826BE4DC2E1DE87B00BADF70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 826BE4E32E1DE87B00BADF70;
+			remoteInfo = LearnTimesTables;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		826BE4E42E1DE87B00BADF70 /* LearnTimesTables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnTimesTables.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		826BE4F12E1DE87C00BADF70 /* LearnTimesTablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnTimesTablesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		826BE4FB2E1DE87C00BADF70 /* LearnTimesTablesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnTimesTablesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		826BE4E62E1DE87B00BADF70 /* LearnTimesTables */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LearnTimesTables;
+			sourceTree = "<group>";
+		};
+		826BE4F42E1DE87C00BADF70 /* LearnTimesTablesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LearnTimesTablesTests;
+			sourceTree = "<group>";
+		};
+		826BE4FE2E1DE87C00BADF70 /* LearnTimesTablesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LearnTimesTablesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		826BE4E12E1DE87B00BADF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826BE4EE2E1DE87C00BADF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826BE4F82E1DE87C00BADF70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		826BE4DB2E1DE87B00BADF70 = {
+			isa = PBXGroup;
+			children = (
+				826BE4E62E1DE87B00BADF70 /* LearnTimesTables */,
+				826BE4F42E1DE87C00BADF70 /* LearnTimesTablesTests */,
+				826BE4FE2E1DE87C00BADF70 /* LearnTimesTablesUITests */,
+				826BE4E52E1DE87B00BADF70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		826BE4E52E1DE87B00BADF70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				826BE4E42E1DE87B00BADF70 /* LearnTimesTables.app */,
+				826BE4F12E1DE87C00BADF70 /* LearnTimesTablesTests.xctest */,
+				826BE4FB2E1DE87C00BADF70 /* LearnTimesTablesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		826BE4E32E1DE87B00BADF70 /* LearnTimesTables */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826BE5052E1DE87C00BADF70 /* Build configuration list for PBXNativeTarget "LearnTimesTables" */;
+			buildPhases = (
+				826BE4E02E1DE87B00BADF70 /* Sources */,
+				826BE4E12E1DE87B00BADF70 /* Frameworks */,
+				826BE4E22E1DE87B00BADF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				826BE4E62E1DE87B00BADF70 /* LearnTimesTables */,
+			);
+			name = LearnTimesTables;
+			packageProductDependencies = (
+			);
+			productName = LearnTimesTables;
+			productReference = 826BE4E42E1DE87B00BADF70 /* LearnTimesTables.app */;
+			productType = "com.apple.product-type.application";
+		};
+		826BE4F02E1DE87C00BADF70 /* LearnTimesTablesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826BE5082E1DE87C00BADF70 /* Build configuration list for PBXNativeTarget "LearnTimesTablesTests" */;
+			buildPhases = (
+				826BE4ED2E1DE87C00BADF70 /* Sources */,
+				826BE4EE2E1DE87C00BADF70 /* Frameworks */,
+				826BE4EF2E1DE87C00BADF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				826BE4F32E1DE87C00BADF70 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				826BE4F42E1DE87C00BADF70 /* LearnTimesTablesTests */,
+			);
+			name = LearnTimesTablesTests;
+			packageProductDependencies = (
+			);
+			productName = LearnTimesTablesTests;
+			productReference = 826BE4F12E1DE87C00BADF70 /* LearnTimesTablesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		826BE4FA2E1DE87C00BADF70 /* LearnTimesTablesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826BE50B2E1DE87C00BADF70 /* Build configuration list for PBXNativeTarget "LearnTimesTablesUITests" */;
+			buildPhases = (
+				826BE4F72E1DE87C00BADF70 /* Sources */,
+				826BE4F82E1DE87C00BADF70 /* Frameworks */,
+				826BE4F92E1DE87C00BADF70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				826BE4FD2E1DE87C00BADF70 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				826BE4FE2E1DE87C00BADF70 /* LearnTimesTablesUITests */,
+			);
+			name = LearnTimesTablesUITests;
+			packageProductDependencies = (
+			);
+			productName = LearnTimesTablesUITests;
+			productReference = 826BE4FB2E1DE87C00BADF70 /* LearnTimesTablesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		826BE4DC2E1DE87B00BADF70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					826BE4E32E1DE87B00BADF70 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					826BE4F02E1DE87C00BADF70 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 826BE4E32E1DE87B00BADF70;
+					};
+					826BE4FA2E1DE87C00BADF70 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 826BE4E32E1DE87B00BADF70;
+					};
+				};
+			};
+			buildConfigurationList = 826BE4DF2E1DE87B00BADF70 /* Build configuration list for PBXProject "LearnTimesTables" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 826BE4DB2E1DE87B00BADF70;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 826BE4E52E1DE87B00BADF70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				826BE4E32E1DE87B00BADF70 /* LearnTimesTables */,
+				826BE4F02E1DE87C00BADF70 /* LearnTimesTablesTests */,
+				826BE4FA2E1DE87C00BADF70 /* LearnTimesTablesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		826BE4E22E1DE87B00BADF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826BE4EF2E1DE87C00BADF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826BE4F92E1DE87C00BADF70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		826BE4E02E1DE87B00BADF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826BE4ED2E1DE87C00BADF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826BE4F72E1DE87C00BADF70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		826BE4F32E1DE87C00BADF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 826BE4E32E1DE87B00BADF70 /* LearnTimesTables */;
+			targetProxy = 826BE4F22E1DE87C00BADF70 /* PBXContainerItemProxy */;
+		};
+		826BE4FD2E1DE87C00BADF70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 826BE4E32E1DE87B00BADF70 /* LearnTimesTables */;
+			targetProxy = 826BE4FC2E1DE87C00BADF70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		826BE5032E1DE87C00BADF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5Z853L7CZU;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		826BE5042E1DE87C00BADF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5Z853L7CZU;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		826BE5062E1DE87C00BADF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z853L7CZU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uglyelf.LearnTimesTables;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		826BE5072E1DE87C00BADF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z853L7CZU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uglyelf.LearnTimesTables;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		826BE5092E1DE87C00BADF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z853L7CZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uglyelf.LearnTimesTablesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnTimesTables.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearnTimesTables";
+			};
+			name = Debug;
+		};
+		826BE50A2E1DE87C00BADF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z853L7CZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uglyelf.LearnTimesTablesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnTimesTables.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearnTimesTables";
+			};
+			name = Release;
+		};
+		826BE50C2E1DE87C00BADF70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z853L7CZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uglyelf.LearnTimesTablesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearnTimesTables;
+			};
+			name = Debug;
+		};
+		826BE50D2E1DE87C00BADF70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z853L7CZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uglyelf.LearnTimesTablesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearnTimesTables;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		826BE4DF2E1DE87B00BADF70 /* Build configuration list for PBXProject "LearnTimesTables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826BE5032E1DE87C00BADF70 /* Debug */,
+				826BE5042E1DE87C00BADF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826BE5052E1DE87C00BADF70 /* Build configuration list for PBXNativeTarget "LearnTimesTables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826BE5062E1DE87C00BADF70 /* Debug */,
+				826BE5072E1DE87C00BADF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826BE5082E1DE87C00BADF70 /* Build configuration list for PBXNativeTarget "LearnTimesTablesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826BE5092E1DE87C00BADF70 /* Debug */,
+				826BE50A2E1DE87C00BADF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826BE50B2E1DE87C00BADF70 /* Build configuration list for PBXNativeTarget "LearnTimesTablesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826BE50C2E1DE87C00BADF70 /* Debug */,
+				826BE50D2E1DE87C00BADF70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 826BE4DC2E1DE87B00BADF70 /* Project object */;
+}
