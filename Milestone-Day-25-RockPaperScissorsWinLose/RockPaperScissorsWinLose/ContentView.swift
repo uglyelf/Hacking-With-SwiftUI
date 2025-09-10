@@ -55,7 +55,7 @@ struct ContentView: View {
                 Image(systemName: appMove.imageName)
                     .imageScale(.large)
                     .foregroundStyle(.tint)
-                Text("Computer chooses \(appMove)")
+                Text("Computer chooses \(appMove.rawValue)")
             }
             .font(.title)
             Spacer()

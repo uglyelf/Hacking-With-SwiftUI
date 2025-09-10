@@ -13,10 +13,6 @@ struct ContentView: View {
     @State private var sleepAmount = 8.0
     @State private var coffeeAmount = 1
     
-//    @State private var alertTitle = ""
-//    @State private var alertMessage = ""
-//    @State private var showingAlert = false
-    
     static var defaultWakeTime: Date {
         var components = DateComponents()
         components.hour = 7
@@ -50,7 +46,6 @@ struct ContentView: View {
                     Text("Daily coffee intake")
                         .font(.headline)
 
-//                    Stepper("^[\(coffeeAmount) cup](inflect: true)", value: $coffeeAmount, in: 1...20)
                     Picker("Daily coffee intake", selection: $coffeeAmount) {
                         ForEach(1...20, id: \.self) {
                             Text("^[\($0) cup](inflect: true)")
@@ -67,14 +62,6 @@ struct ContentView: View {
                 }
             } // Body VStack
             .navigationTitle("BetterRest")
-//            .toolbar {
-//                Button("Calculate", action: calculateBedTime)
-//            }
-//            .alert(alertTitle, isPresented: $showingAlert) {
-//                Button("OK") {}
-//            } message: {
-//                Text(alertMessage)
-//            }
         }
     }
     
@@ -90,16 +77,9 @@ struct ContentView: View {
             let prediction = try model.prediction(wake: Double(hour + minute), estimatedSleep: sleepAmount, coffee: Double(coffeeAmount))
             let sleepTime = wakeUp - prediction.actualSleep
             return sleepTime
-            
-//            alertTitle = "Your ideal bedtime is..."
-//            alertMessage = sleepTime.formatted(date: .omitted, time: .shortened)
         } catch {
-//            alertTitle = "Error"
-//            alertMessage = "Sorry, there was a problem calculating your bedtime."
             return .now
         }
-        
-//        showingAlert = true
     }
 }
 

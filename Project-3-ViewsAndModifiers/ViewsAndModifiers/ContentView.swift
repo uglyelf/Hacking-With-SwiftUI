@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+/**
+ This just plays with some views and stuff. Not a real project.
+ */
+
 struct ContentView: View {
 //    @State private var agreedToTerms = false
 //        @State private var agreedToPrivacyPolicy = false

@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+/**
+ This just plays with some animations. 
+ */
+
+
 struct CornerRotateModifier: ViewModifier {
     let amount: Double
     let anchor: UnitPoint
