@@ -15,9 +15,9 @@ struct ConversionView<T: MeasureableUnit>: View {
     @State private var inputValue: Double = 1.0
     
     
-    init(initalIndex: Int, title: String, isSegmented: Bool) {
-        inputType = T.allTitles[initalIndex]
-        outputType = T.allTitles[initalIndex]
+    init(initalInUnitIndex: Int, initialOutUnitIndex: Int, title: String, isSegmented: Bool) {
+        inputType = T.allTitles[initalInUnitIndex]
+        outputType = T.allTitles[initialOutUnitIndex]
         self.title = title
         self.isSegmented = isSegmented
     }
@@ -28,76 +28,56 @@ struct ConversionView<T: MeasureableUnit>: View {
         return outMeasurement.value
     }
     
+    /**
+     TODO: I'm not the happiest with this. I think it could be laid out better.
+     */
     var body: some View {
-        /*
-         TODO: convert GeometryReader to using
-         .containerRelativeFrame(.horizontal) { width, axis in
-             width * 0.6
-         }
-         */
-        VStack(alignment: .leading, spacing: 0) {
+        VStack(alignment: .leading, spacing: 4) {
             Text(title)
-            GeometryReader { geometry in
-                HStack {
-                    Form {
-                        Section("Input") {
-                            TextField("Input", value: $inputValue, format: .number) // TODO: fix the formatting
+                .padding(.leading)
+            HStack {
+                Form {
+                    TextField("Input", value: $inputValue, format: .number)
+                }
+                .containerRelativeFrame(.horizontal) { size, axis in
+                    size * 2.5 / 7.0
+                }
+                Form {
+                    Picker("Unit", selection: $inputType) {
+                        ForEach(T.allTitles, id: \.self) {
+                            Text($0)
                         }
                     }
-                    .frame(width: geometry.size.width * 3 / 7)
-                    Form {
-                        Section("Unit") {
-                            // emptyview is an antipattern, but navigationLink pickers don't respect labelshidden
-                            Picker(selection: $inputType, label: EmptyView()) {
-                                ForEach(T.allTitles, id: \.self) {
-                                    Text($0)
-                                }
-                            }
-                            .conditionalPickerStyle(isSegmented: isSegmented)
-                            .frame(alignment: .leading)
-                        } // section
-                    } // form
-                    .frame(width: geometry.size.width * 4 / 7)
-                } // hstack
-            } // GeometryReader
-            
-            GeometryReader { geometry in
-                HStack {
-                    Form {
-                        Section("Out") {
-                            Text("\(convert(value: inputValue, from: T(rawValue: inputType)!, to: T(rawValue: outputType)!), specifier: "%.2f")")
+                    .conditionalPickerStyle(isSegmented: isSegmented)
+                    .labelsHidden()
+                } // form
+            } // hstack
+            HStack {
+                Form {
+                    Text("\(convert(value: inputValue, from: T(rawValue: inputType)!, to: T(rawValue: outputType)!), specifier: "%.2f")")
+                }
+                .containerRelativeFrame(.horizontal) { size, axis in
+                    size * 2.5 / 7.0
+                }
+                Form {
+                    Picker("Units", selection: $outputType) {
+                        ForEach(T.allTitles, id: \.self) {
+                            Text($0)
                         }
                     }
-                    .frame(width: geometry.size.width * 3 / 7)
-                    Form {
-                        Section("Unit") {
-                            Picker(selection: $outputType, label: EmptyView()) {
-                                ForEach(T.allTitles, id: \.self) {
-                                    Text($0)
-                                }
-                            }
-                            .conditionalPickerStyle(isSegmented: isSegmented)
-                            .frame(alignment: .leading)
-                        } // section
-                    } // form
-                    .frame(width: geometry.size.width * 4 / 7)
-                } // hstack
-            } // GR
-            Spacer().frame(height: .infinity)
+                    .conditionalPickerStyle(isSegmented: isSegmented)
+                    .labelsHidden()
+                } // form
+            } // hstack
         } //  VStack
-        .frame(height: 300)
+        .frame(height: 230)
     }
 }
 
-#Preview {
-    NavigationStack {
-        ConversionView<Length>(initalIndex: 0, title: "Lengths", isSegmented: false)
-    }
-}
 
 struct ConditionalPickerStyle: ViewModifier {
     let isSegmented: Bool
-
+    
     func body(content: Content) -> some View {
         if isSegmented {
             content.pickerStyle(.segmented)
@@ -111,5 +91,11 @@ struct ConditionalPickerStyle: ViewModifier {
 extension View {
     func conditionalPickerStyle(isSegmented: Bool) -> some View {
         modifier(ConditionalPickerStyle(isSegmented: isSegmented))
+    }
+}
+
+#Preview {
+    NavigationStack {
+        ConversionView<Length>(initalInUnitIndex: 1, initialOutUnitIndex: 0, title: "Lengths", isSegmented: false)
     }
 }
