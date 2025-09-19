@@ -51,6 +51,10 @@ struct DetailView: View {
         } message: {
             Text("Are you sure?")
         }
+        Text(book.date, style: .date)
+            .font(.caption)
+            .frame(maxWidth: .infinity ,alignment: .trailing)
+            .padding()
         
         Text(book.author)
             .font(.title)

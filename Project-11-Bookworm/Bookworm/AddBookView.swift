@@ -20,6 +20,13 @@ struct AddBookView: View {
     
     let genres = Genres.allCases.map {$0.description}
     
+    var hasValidBook: Bool {
+        guard !title.isEmpty && !title.isAllWhitespace && !author.isEmpty && !author.isAllWhitespace else {
+            return false
+        }
+        return true
+    }
+    
     var body: some View {
         NavigationStack {
             Form {
@@ -47,6 +54,7 @@ struct AddBookView: View {
                         modelContext.insert(newBook)
                         dismiss()
                     }
+                    .disabled(hasValidBook == false)
                 }
             }
             .navigationTitle(Text("Add Book"))
